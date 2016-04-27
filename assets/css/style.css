@@ -29,7 +29,14 @@ body {
 .nav-item {
     font-size: 25px;
     line-height: 20px;
-    margin: 100px;
+    margin: 30px;
+    padding: 10px 50px;
+}
+
+.nav-item:hover {
+  background-color: #E3F1FF;
+  color: black;
+  cursor: pointer;
 }
 
 #home {
@@ -49,6 +56,7 @@ body {
   margin-left: 50px;
   margin-top: 50px;
   border-style: solid;
+  background-color: white;
 }
 
 #profile-container {
@@ -125,14 +133,20 @@ body {
 }
 
 #today-nav-container {
-  padding: 15px 0px;
+  padding: 16px 0px;
   display: inline-block;
 }
 
 .today-nav-item {
     font-size: 20px;
-    line-height: 15px;
-    margin: 50px;
+    margin: 30px;
+    padding: 5px 50px;
+}
+
+.today-nav-item:hover {
+  background-color: #E3F1FF;
+  color: black;
+  cursor: pointer;
 }
 
 #aspect {
@@ -153,6 +167,7 @@ body {
   height: 175px;
   border: solid 2px;
   margin: 15px;
+  background-color: white;
 }
 
 #aspect-mental {
@@ -191,6 +206,12 @@ body {
   font-weight: bold;
 }
 
+.aspect-mark:hover {
+  background-color: #E3F1FF;
+  color: black;
+  cursor: pointer;
+}
+
 .aspect-mark-title {
   float: right;
   font-size: 40px;
@@ -213,8 +234,13 @@ body {
   margin-left: 830px;
   margin-top: -65px;
   font-size: 15px;
-  background-color: white;
+  background-color: #6AA2DE;
   border: solid 1px;
+}
+
+.aspect-submit:hover {
+  background-color: #E3F1FF;
+  cursor: pointer;
 }
 
 .aspect-divider {
@@ -250,8 +276,18 @@ body {
 
 .more-nav-item {
     font-size: 20px;
-    line-height: 15px;
-    margin: 50px;
+    margin: 30px;
+    padding: 5px 50px;
+}
+
+.more-nav-item:hover {
+  background-color: #E3F1FF;
+  color: black;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #E3F1FF;
 }
 
 #thoughts-container {
@@ -271,8 +307,13 @@ body {
   margin-left: 825px;
   margin-top: 15px;
   font-size: 15px;
-  background-color: white;
+  background-color: #6AA2DE;
   border: solid 1px;
+}
+
+#thoughts-submit:hover {
+  background-color: #E3F1FF;
+  cursor: pointer;
 }
 
 #resources-container {
