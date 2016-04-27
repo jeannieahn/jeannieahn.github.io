@@ -4,22 +4,23 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   <script src="assets/js/jquery-1.8.3.min.js"></script>
   <script src="assets/js/script.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <script src="assets/js/waypoints.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <div id="nav">
-    <div class="container">
+    <div id="nav-container">
     <div id="nav-item-container">
-      <div class="nav-item">Home</div>
-      <div class="nav-item">Today's Data</div>
-      <div class="nav-item">More</div>
+      <span class="nav-item">Home</span>
+      <span class="nav-item">Today's Data</span>
+      <span class="nav-item">More</span>
     </div>
     </div>
   </div>
   <div id="home">
     <div class="container">
-      <div id="profile-pic"></div>
       <div id="profile">
+        <div id="profile-pic">PROFILE PICTURE</div>
         <div id="profile-container">
           <div class="profile-item">name</div>
           <div class="profile-item">age</div>
@@ -38,39 +39,76 @@
       </div>
     </div>
   </div>
+  <div class="clear"></div>
   <div id="today">
     <div id="today-nav">
-      <div class="today-nav-item">Mental</div>
-      <div class="today-nav-item">Water</div>
-      <div class="today-nav-item">Exercise</div>
-      <div class="today-nav-item">Add More</div>
+      <div id="today-nav-container">
+      <span class="today-nav-item">Mental</span>
+      <span class="today-nav-item">Water</span>
+      <span class="today-nav-item">Exercise</span>
+      <span class="today-nav-item">Add More</span>
+      </div>
+    </div>
+  <div id="aspect">
+  <div class="aspect-container">
+    <div class="aspect-pic">brain</div>
+    <div id="aspect-mental">Mental</div>
+  <div class="aspect-mark-container">
+    <div class="aspect-mark">Awful</div>
+    <div class="aspect-mark">Bad</div>
+    <div class="aspect-mark">Okay</div>
+    <div class="aspect-mark">Good</div>
+    <div class="aspect-mark">Great</div>
+    <div class="aspect-mark-title">State</div>
+  </div>
+    <div class="aspect-note"><textarea rows="5" cols="81">Add note here.</textarea></div>
+    <div class="aspect-submit">Done</div>
+    <div class="aspect-divider"></div>
+  </div>
+  <div class="aspect-container">
+    <div class="aspect-pic">water drop</div>
+    <div id="aspect-water">Water</div>
+  <div class="aspect-mark-container">
+    <div class="aspect-mark">0</div>
+    <div class="aspect-mark">1 - 2</div>
+    <div class="aspect-mark">3 - 4</div>
+    <div class="aspect-mark">5 - 6</div>
+    <div class="aspect-mark">7+</div>
+    <div class="aspect-mark-title">Cups</div>
+  </div>
+    <div class="aspect-note"><textarea rows="5" cols="81">Add note here.</textarea></div>
+    <div class="aspect-submit">Done</div>
+  </div>
+  </div>
+</div>
+<div id="more">
+  <div id="more-nav">
+    <div id="more-nav-container">
+    <span class="more-nav-item">Thoughts</span>
+    <span class="more-nav-item">Resources</span>
+    <span class="more-nav-item">Reminder</span>
     </div>
   </div>
-  <div id="aspect">
-    <div class="aspect-pic"></div>
-    <div class="aspect-title">Mental</div>
-    <div class="aspect-mark-1">Bad</div>
-    <div class="aspect-mark-2">Not Good</div>
-    <div class="aspect-mark-3">Okay</div>
-    <div class="aspect-mark-4">Good</div>
-    <div class="aspect-mark-5">Great</div>
-    <div class="aspect-mark-title">State</div>
-    <div class="aspect-note">+Note</div>
-    <div class="aspect-divider"></div>
-    <div class="aspect-pic"></div>
-    <div class="aspect-title">Water</div>
-    <div class="aspect-mark-1">0</div>
-    <div class="aspect-mark-2">1-2</div>
-    <div class="aspect-mark-3">3-4</div>
-    <div class="aspect-mark-4">5-6</div>
-    <div class="aspect-mark-5">7+</div>
-    <div class="aspect-mark-title">Cups</div>
-    <div class="aspect-note">+Note</div>
-    <div class="aspect-divider"></div>
+  <div id="thoughts-container">
+    <div id="thoughts-title">THOUGHTS</div>
+    <div id="thoughts"><textarea rows="15" cols="125">Add entry here.</textarea></div>
+    <div id="thoughts-submit">Done</div>
   </div>
-  <div id="more">
-    <textarea rows="10" cols="70">Input thought entry here.</textarea>
-    <div id="button">done</div>
+  <div id="resources-container">
+    <div id="resources-title">RESOURCES</div>
+    <div id="resources-content">
+      <ul>
+        <li>link 1</li>
+        <li>link 2</li>
+        <li>link 3</li>
+      </ul>
+    </div>
+  <div id="reminder-title">REMINDER</div>
+    <div id="reminder-container">
+      <div id="reminder">Click here for your daily reminder!</div>
+  	   <div class="popup">You can do it!</div>
+  	</div>
+  </div>
   </div>
 </body>
 </html>
